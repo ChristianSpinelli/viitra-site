@@ -5,7 +5,7 @@ export default class Home extends React.Component{
 	render(){
 		return(
 			<React.Fragment>
-				<Header/>
+				<Header tab='#home'/>
 			</React.Fragment>
 		);
 	}
