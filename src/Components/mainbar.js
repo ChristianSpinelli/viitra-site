@@ -6,14 +6,13 @@ import Container from 'react-bootstrap/Container';
 export default function MainBar(props){
 	return(
 		<React.Fragment>
-      <Navbar expand="lg" bg='white' fixed>
+      <Navbar expand="lg" bg='white' variant='ligth'>
         <Container>
-          <Navbar.Brand href="#home"><img alt='viitra_logo' src='./viitra_logo.svg' width="160" height="70"/></Navbar.Brand>
+          <Navbar.Brand href="/home"><img alt='viitra_logo' src='./viitra_logo.svg' width="160" height="70"/></Navbar.Brand>
           <Navbar.Collapse className="justify-content-end">
             <Nav className="flex-column" >
-              <Navbar.Text>(81) 4101-7433</Navbar.Text>
-              <Navbar.Text>Rua Acadêmico Hélio Ramos, 60 - SL 13</Navbar.Text>
-              <Navbar.Text>Várzea, Recife - PE</Navbar.Text>
+              <Navbar.Text className='phone'>(81) 4101-7433</Navbar.Text>
+              <Navbar.Text className='address'>Rua Acadêmico Hélio Ramos, 60 - SL 13 <br/> Várzea, Recife - PE</Navbar.Text>
             </Nav>          
           </Navbar.Collapse>
         </Container>  

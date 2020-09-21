@@ -8,14 +8,14 @@ import { faFacebookF, faInstagram, faLinkedinIn } from '@fortawesome/free-brands
 export default function SideBar(props){
 		return(
 			<React.Fragment>
-				<Navbar expand="lg" bg="light" variant="light" fixed>
+				<Navbar expand="lg" bg='light' variant='light'>
 			 		<Container> 
          				<Navbar.Collapse>
             				<Nav activeKey={props.tab}>
-              					<Nav.Link href="#home">Home</Nav.Link>
-              					<Nav.Link href="#sobre">Quem Somos</Nav.Link>
-              					<Nav.Link href="#solucoes">Soluções</Nav.Link>
-              					<Nav.Link href="#contato">Contato</Nav.Link>
+              					<Nav.Link href="/home">Home</Nav.Link>
+              					<Nav.Link href="/sobre">Quem Somos</Nav.Link>
+              					<Nav.Link href="/solucoes">Soluções</Nav.Link>
+              					<Nav.Link href="/contato">Contato</Nav.Link>
            				 	</Nav>
             			</Navbar.Collapse>
             			<Navbar.Collapse className="justify-content-end">

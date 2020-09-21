@@ -1,0 +1,59 @@
+.jumbotron{
+	background-image: url("Images/home.jpg"); 
+	background-size: cover;
+	background-position-y: bottom;
+	padding-top: 18.5em;	
+}
+
+.address{
+	color: #759aab;
+}
+
+.phone, .address{
+	font-size: 12px;
+	text-align: right;
+	margin-top: 4px;
+	padding: 0px;
+}
+
+.jumbotron h1, .jumbotron h4{
+	color: #fff;
+	text-shadow: 0 2px 15px #3f4956;
+	text-align: center;
+}
+
+.jumbotron h1{
+	font-weight: 700;
+	font-size: 60px;
+	margin-bottom: 24px;
+}
+
+.jumbotron h4{
+	font-size: 30px;
+	margin-bottom: 6em;
+}
+
+.card-deck{
+	margin-bottom: 40px;
+	
+}
+
+.card-title{
+	padding: 24px;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+section h3{
+	text-align: center;
+	font-weight: 700;
+	font-size: 30px;
+	margin-bottom: 24px;
+	padding: 50px;
+}
+
+body{
+	background-color: #EFF5F5;
+}
+
+
