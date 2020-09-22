@@ -1,6 +1,6 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
-import PersonalCarousel from './personalCarousel';
+import PartnersCarousel from './partnersCarousel';
 
 
 export default function Partners(){
@@ -9,7 +9,7 @@ export default function Partners(){
 			<section class='partners'>
 				<Container>
 					<h3>Parceiros e Clientes</h3>
-					<PersonalCarousel/>
+					<PartnersCarousel/>
 				</Container>
 			</section>
 		</React.Fragment>

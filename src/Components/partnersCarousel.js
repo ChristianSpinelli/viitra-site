@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-export default function PersonalCarousel(){
+export default function PartnersCarousel(){
 	 const [index, setIndex] = useState(0);
 	 const handleSelect = (selectedIndex, e) => {
     	setIndex(selectedIndex);

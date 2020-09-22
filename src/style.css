@@ -44,10 +44,6 @@
 	font-size: 20px;
 }
 
-.card-img-overlay{
-	
-}
-
 .partner-card{
 	max-width: 200px;
 	max-height: 200px;
@@ -60,7 +56,7 @@ section h3{
 	font-weight: 700;
 	font-size: 30px;
 	margin-bottom: 24px;
-	padding: 50px;
+	padding: 30px;
 }
 
 body{
@@ -77,11 +73,62 @@ body{
 	background: url(Images/active-indicator.svg) no-repeat;
 }
 
-section.partners .carousel li{
+ .carousel li{
 	width: 12px;
 	height: 12px;
 	border-radius: 100%;
 	margin-top: 1px;
+	
+}
+
+section.partners .carousel li{
 	background-color: #3f4956;
 }
+
+section.testmonials .carousel li{
+	background-color: #fff;
+}
+
+section.testmonials h3{
+	color: #fff;
+}
+
+section.testmonials{
+	background-color: #3f4956;
+	margin-bottom: 24px;
+}
+
+@media only screen and (min-width: 1000px) {
+	section.testmonials .card{
+		margin-left: 200px;
+		margin-right: 200px;
+	}
+}
+
+section.testmonials .card{
+	padding-top: 24px;
+	padding-right: 56px;
+	padding-bottom: 24px;
+	padding-left: 56px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+
+
+section.testmonials .card-title{
+	color: #00e88b;
+	font-size: 18px;
+}
+
+
+section.testmonials .card p{
+	font-size: 12px;
+}
+
+.sidebar{
+	background-color: hsla(0,0%,100%,.8);
+	margin-top: 6em;
+}
+
 

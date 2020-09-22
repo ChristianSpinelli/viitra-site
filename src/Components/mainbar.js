@@ -6,7 +6,7 @@ import Container from 'react-bootstrap/Container';
 export default function MainBar(props){
 	return(
 		<React.Fragment>
-      <Navbar expand="lg" bg='white' variant='ligth'>
+      <Navbar expand="md" bg='white' variant='ligth' fixed='top'>
         <Container>
           <Navbar.Brand href="/home"><img alt='viitra_logo' src='./viitra_logo.svg' width="160" height="70"/></Navbar.Brand>
           <Navbar.Collapse className="justify-content-end">

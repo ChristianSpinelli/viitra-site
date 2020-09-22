@@ -8,7 +8,7 @@ import { faFacebookF, faInstagram, faLinkedinIn } from '@fortawesome/free-brands
 export default function SideBar(props){
 		return(
 			<React.Fragment>
-				<Navbar expand="lg" bg='light' variant='light'>
+				<Navbar className='sidebar' expand="md"  fixed='top'>
 			 		<Container> 
          				<Navbar.Collapse>
             				<Nav activeKey={props.tab}>
