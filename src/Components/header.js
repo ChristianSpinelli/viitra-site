@@ -1,7 +1,7 @@
 import React from 'react';
 import MainBar from './mainbar';
 import SideBar from './sidebar';
-import Banner from './banner';
+import MainBanner from './mainBanner';
 
 
 
@@ -10,7 +10,7 @@ export default function Header(props){
 		<React.Fragment>
 			<MainBar/>
 			<SideBar tab={props.tab}/>
-			<Banner/>
+			<MainBanner/>
 		</React.Fragment>
 	);
 }

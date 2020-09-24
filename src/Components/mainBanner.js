@@ -3,7 +3,7 @@ import Jumbotron from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
 
 
-export default function Banner(){
+export default function MainBanner(){
 	return(
 		<React.Fragment>
 			<Jumbotron  fluid>

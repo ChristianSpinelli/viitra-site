@@ -2,7 +2,7 @@
 	background-image: url("Images/home.jpg"); 
 	background-size: cover;
 	background-position-y: bottom;
-	padding-top: 18.5em;	
+	padding-top: 18.5em;
 }
 
 .address{
@@ -59,10 +59,6 @@ section h3{
 	padding: 30px;
 }
 
-body{
-	background-color: #EFF5F5;
-}
-
 .carousel{
 	margin-bottom: 24px;
 }
@@ -85,8 +81,13 @@ section.partners .carousel li{
 	background-color: #3f4956;
 }
 
-section.testmonials .carousel li{
+
+section.testmonials .carousel li, section.contact, section.partners{
 	background-color: #fff;
+}
+
+body{
+	background-color: #EFF5F5;
 }
 
 section.testmonials h3{
@@ -96,12 +97,13 @@ section.testmonials h3{
 section.testmonials{
 	background-color: #3f4956;
 	margin-bottom: 24px;
+
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 800px) {
 	section.testmonials .card{
-		margin-left: 200px;
-		margin-right: 200px;
+		margin-right:15%;
+		margin-left: 15%;
 	}
 }
 
@@ -112,8 +114,9 @@ section.testmonials .card{
 	padding-left: 56px;
 	text-align: center;
 	margin-bottom: 50px;
+	
+	
 }
-
 
 
 section.testmonials .card-title{
@@ -130,5 +133,62 @@ section.testmonials .card p{
 	background-color: hsla(0,0%,100%,.8);
 	margin-top: 6em;
 }
+
+section h4{
+	font-size: 15px;
+    color: #707070;
+    font-weight: 400;
+    margin-bottom: 34px;
+    line-height: 1.5;
+    text-align: center;
+    max-width: 33.33%;
+    margin-left: 33.33%;
+}
+
+@media only screen and (min-width: 800px) {
+	.btn-primary{
+		margin-left: 75%;
+	}
+}
+@media only screen and (max-width: 800px) {
+	.btn-primary{
+		margin-left: 30%;
+	}
+}
+
+.btn-primary{
+	background: linear-gradient(185deg,#3f4956,#191e24 110%);
+    color: #00e88b;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 16px 20px;
+    border: 0;
+
+}
+
+.btn{
+	max-width: 200px;	
+}
+
+section.content-banner{
+	background-color: rgba(216,229,229,.4);
+}
+
+section.content-banner .card{
+	background-color: rgba(0,232,138,.7);
+	height: 258px;
+	clip-path: polygon(0 45%,100% 0,100% 100%,0 100%);
+}
+
+section.content-banner h1{
+	margin: 0;
+    font-size: 80px;
+    color: rgba(63,73,86,.77);
+    font-weight: 700;
+}
+
+
+
+
 
 
