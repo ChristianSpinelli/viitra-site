@@ -8,9 +8,11 @@ import MainBanner from './mainBanner';
 export default function Header(props){
 	return(
 		<React.Fragment>
-			<MainBar/>
-			<SideBar tab={props.tab}/>
-			<MainBanner/>
+			<section class='header'>
+				<MainBar/>
+				<SideBar tab={props.tab}/>
+				<MainBanner/>
+			</section>
 		</React.Fragment>
 	);
 }

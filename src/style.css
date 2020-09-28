@@ -87,6 +87,10 @@ section.testmonials .carousel li, section.contact, section.partners{
 }
 
 body{
+	background-color: #fff;
+}
+
+section.expertise-areas, section.header{
 	background-color: #EFF5F5;
 }
 
@@ -100,12 +104,6 @@ section.testmonials{
 
 }
 
-@media only screen and (min-width: 800px) {
-	section.testmonials .card{
-		margin-right:15%;
-		margin-left: 15%;
-	}
-}
 
 section.testmonials .card{
 	padding-top: 24px;
@@ -113,9 +111,7 @@ section.testmonials .card{
 	padding-bottom: 24px;
 	padding-left: 56px;
 	text-align: center;
-	margin-bottom: 50px;
-	
-	
+	margin-bottom: 50px;	
 }
 
 
@@ -145,16 +141,6 @@ section h4{
     margin-left: 33.33%;
 }
 
-@media only screen and (min-width: 800px) {
-	.btn-primary{
-		margin-left: 75%;
-	}
-}
-@media only screen and (max-width: 800px) {
-	.btn-primary{
-		margin-left: 30%;
-	}
-}
 
 .btn-primary{
 	background: linear-gradient(185deg,#3f4956,#191e24 110%);
@@ -187,7 +173,47 @@ section.content-banner h1{
     font-weight: 700;
 }
 
+section{
+	margin-bottom: 30px;
+}
 
+section.footer{
+	margin-bottom: 0px;
+}
+
+section.footer .navbar-text, section.footer a, section.footer p{
+	color: #00e88b !important;
+	
+}
+
+section.footer .navbar-text.sideFooter{
+	color: #3f4956!important;
+}
+
+section.footer .navbar{
+	background: #00e88b;
+	font-size: 15px;
+	padding: 0px;
+}
+
+section.footer .navbar-text.subtext{
+	font-weight: 400;
+    font-size: 12px;
+}
+
+
+@media only screen and (min-width: 768px) {
+	section.footer .nav{
+		flex-direction: column;
+	}
+
+	section.testmonials .card{
+		margin-right:15%;
+		margin-left: 15%;
+	}
+
+
+}
 
 
 
